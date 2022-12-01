@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/movie.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href="../index.html" class="logo">Marvel</a>
+        <div class="theme-icon">
+          <img
+            src="../images/sun.png"
+            alt="teheme icon"
+            aria-label="change-theme"
+            id="icon"
+          />
+        </div>
+
+        <ul class="nav">
+          <li><a href="../index.html" style="--i: 1">Home</a></li>
+          <li><a href="./characters.html" style="--i: 2">Characters</a></li>
+          <li><a href="./movie.html" style="--i: 3">Movie</a></li>
+        </ul>
+        <div class="close"></div>
+      </header>
+      <section>
+        <div class="container">
+          <div class="slider banner-slider" data-slider>
+            <div class="slider-container" data-slider-container>
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 1000; --height: 660"
+                >
+                  <img
+                    src="../images/cpmarvel1.jpg"
+                    width="1000"
+                    height="660"
+                    alt="avengers2"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 1000; --height: 660"
+                >
+                  <img
+                    src="../images/dedpoll.jpg"
+                    width="1000"
+                    height="660"
+                    alt="dedpoll"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 1000; --height: 660"
+                >
+                  <img
+                    src="../images/msmarvel.jpg"
+                    width="1000"
+                    height="660"
+                    alt="cpmarvel"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 1000; --height: 660"
+                >
+                  <img
+                    src="../images/thor3.jpeg"
+                    width="1000"
+                    height="660"
+                    alt="thor3"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 1000; --height: 660"
+                >
+                  <img
+                    src="../images/endgame2.jpg"
+                    width="1000"
+                    height="660"
+                    alt="endgame2"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 1000; --height: 660"
+                >
+                  <img
+                    src="../images/avengres4.jpg"
+                    width="1000"
+                    height="660"
+                    alt="avengres4"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 1000; --height: 660"
+                >
+                  <img
+                    src="../images/drstange1.jpeg"
+                    width="1000"
+                    height="660"
+                    alt="avengres4"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 1000; --height: 660"
+                >
+                  <img
+                    src="../images/endgame.jpg"
+                    width="1000"
+                    height="660"
+                    alt="endgame"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 1000; --height: 660"
+                >
+                  <img
+                    src="../images/avengers2.jpg"
+                    width="1000"
+                    height="660"
+                    alt="avengers2"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <button class="btn-icon slider-control prev" data-slider-prev>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </button>
+
+            <button class="btn-icon slider-control next" data-slider-next>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="slider banner-slider card-image-slider" data-slider>
+            <div class="slider-container" data-slider-container>
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/blackwidowcar.jpeg"
+                    width="1000"
+                    height="560"
+                    alt="blackwidow"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/ironman-bg.jpeg"
+                    width="1000"
+                    height="660"
+                    alt="ironman"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/hawkeye2.jpeg"
+                    width="1000"
+                    height="660"
+                    alt="hawkeye2"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/endgame3.jpeg"
+                    width="1000"
+                    height="560"
+                    alt="blackPanter"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/blackPanter.jpg"
+                    width="1000"
+                    height="560"
+                    alt="blackPanter"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/blackwidow2.jpeg"
+                    width="1000"
+                    height="560"
+                    alt="blackwidow2"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/plackpanter.jpeg"
+                    width="1000"
+                    height="660"
+                    alt="blackpanter"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/thor1.jpeg"
+                    width="1000"
+                    height="660"
+                    alt="thor1"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/dardevil2.jpeg"
+                    width="1000"
+                    height="660"
+                    alt="daredevil"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/cpamerika.jpg"
+                    width="1000"
+                    height="560"
+                    alt="cpamerika"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <button class="btn-icon slider-control prev" data-slider-prev>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </button>
+
+            <button class="btn-icon slider-control next" data-slider-next>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="slider banner-slider card-image-slider2" data-slider>
+            <div class="slider-container" data-slider-container>
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/avengers.jpg"
+                    width="1000"
+                    height="560"
+                    alt="avengers"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/blackwidow3.jpeg"
+                    width="1000"
+                    height="660"
+                    alt="blackwidow3"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/avengers3.jpg"
+                    width="1000"
+                    height="560"
+                    alt="avengers3"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/cpmarvel.jpg"
+                    width="1000"
+                    height="660"
+                    alt="cpmarvel"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/spiderman.jpeg"
+                    width="1000"
+                    height="560"
+                    alt="spiderman"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/thor.jpeg"
+                    width="1000"
+                    height="560"
+                    alt="thor"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/cap.jpeg"
+                    width="1000"
+                    height="560"
+                    alt="cap"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/hawkeye1.jpeg"
+                    width="1000"
+                    height="560"
+                    alt="hawkeye1"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/dardevil.jpeg"
+                    width="1000"
+                    height="560"
+                    alt="daredevil"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+
+              <div class="slider-item">
+                <div
+                  class="card img-holder"
+                  style="--width: 500; --height: 760"
+                >
+                  <img
+                    src="../images/drstange2.jpeg"
+                    width="1000"
+                    height="560"
+                    alt="drstange2"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <button class="btn-icon slider-control prev" data-slider-prev>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </button>
+
+            <button class="btn-icon slider-control next" data-slider-next>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="trailer">
+            <h2>Watch movies trailer</h2>
+            <div class="iframe">
+              <iframe
+                src="https://www.youtube.com/embed/TcMBFSGVi1c"
+                id="iframe"
+                title="Marvel Studios"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <div class="slider banner-slider slider-3" data-slider>
+                <div class="slider-container" data-slider-container>
+                  <div class="slider-item">
+                    <div
+                      class="card img-holder"
+                      style="--width: 1000; --height: 660"
+                    >
+                      <img
+                        src="../images/endgame.triler.png"
+                        width="1000"
+                        height="660"
+                        alt="endgame"
+                        class="img-cover trailer-img"
+                        data-iframe="https://www.youtube.com/embed/TcMBFSGVi1c"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="slider-item">
+                    <div
+                      class="card img-holder"
+                      style="--width: 1000; --height: 660"
+                    >
+                      <img
+                        src="../images/captenmarveltriler.png"
+                        width="1000"
+                        height="660"
+                        alt="captenmarveltriler"
+                        class="img-cover trailer-img"
+                        data-iframe="https://www.youtube.com/embed/0LHxvxdRnYc"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="slider-item">
+                    <div
+                      class="card img-holder"
+                      style="--width: 1000; --height: 660"
+                    >
+                      <img
+                        src="../images/spidermantr.png"
+                        width="1000"
+                        height="660"
+                        alt="spidermantr"
+                        class="img-cover trailer-img"
+                        data-iframe="https://www.youtube.com/embed/JfVOs4VSpmA"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="slider-item">
+                    <div
+                      class="card img-holder"
+                      style="--width: 1000; --height: 660"
+                    >
+                      <img
+                        src="../images/thortr.png"
+                        width="1000"
+                        height="660"
+                        alt="thortr"
+                        class="img-cover trailer-img"
+                        data-iframe="https://www.youtube.com/embed/Go8nTmfrQd8"
+                      />
+                    </div>
+                  </div>
+                  <div class="slider-item">
+                    <div
+                      class="card img-holder"
+                      style="--width: 1000; --height: 660"
+                    >
+                      <img
+                        src="../images/drstr.png"
+                        width="1000"
+                        height="660"
+                        alt="endgame2"
+                        class="img-cover trailer-img"
+                        data-iframe="https://www.youtube.com/embed/aWzlQ2N6qqg"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="slider-item">
+                    <div
+                      class="card img-holder"
+                      style="--width: 1000; --height: 660"
+                    >
+                      <img
+                        src="../images/ironmantr.png"
+                        width="1000"
+                        height="660"
+                        alt="ironmantr"
+                        class="img-cover trailer-img"
+                        data-iframe="https://www.youtube.com/embed/YLorLVa95Xo"
+                      />
+                    </div>
+                  </div>
+                  <div class="slider-item">
+                    <div
+                      class="card img-holder"
+                      style="--width: 1000; --height: 660"
+                    >
+                      <img
+                        src="../images/ragnarok.png"
+                        width="1000"
+                        height="660"
+                        alt="ragnarok"
+                        class="img-cover trailer-img"
+                        data-iframe="https://www.youtube.com/embed/v7MGUNV8MxU"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="slider-item">
+                    <div
+                      class="card img-holder"
+                      style="--width: 1000; --height: 660"
+                    >
+                      <img
+                        src="../images/blackwidnowtr.png"
+                        width="1000"
+                        height="660"
+                        alt="blackwidnowtr"
+                        class="img-cover trailer-img"
+                        data-iframe="https://www.youtube.com/embed/Fp9pNPdNwjI"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="slider-item">
+                    <div
+                      class="card img-holder"
+                      style="--width: 1000; --height: 660"
+                    >
+                      <img
+                        src="../images/hawkeyetr.png"
+                        width="1000"
+                        height="660"
+                        alt="hawkeyetr"
+                        class="img-cover trailer-img"
+                        data-iframe="https://www.youtube.com/embed/5VYb3B1ETlk"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <button class="btn-icon slider-control prev" data-slider-prev>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 19.5L8.25 12l7.5-7.5"
+                    />
+                  </svg>
+                </button>
+
+                <button class="btn-icon slider-control next" data-slider-next>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="footer">
+        <ul class="sci">
+          <li><a href="#" style="--i: 9">Facebook</a></li>
+          <li><a href="#" style="--i: 8">Twitter</a></li>
+          <li><a href="#" style="--i: 7">Instagram</a></li>
+        </ul>
+        <p class="copyrightText">
+          Copyright © <span id="date"> </span> All rights reserved | This
+          template is made with <span class="heart">♥</span> by
+          <a href="#">Nemanja Djordjevic</a>
+        </p>
+      </div>
+    </div>
+    <div class="loading-text">0%</div>
+    <script src="../js/movie.js"></script>
+  </body>
+</html>

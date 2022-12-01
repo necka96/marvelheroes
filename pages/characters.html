@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/characters.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href="../index.html" class="logo">Marvel</a>
+        <div class="theme-icon">
+          <img
+            src="../images/sun.png"
+            alt="teheme icon"
+            aria-label="change-theme"
+            id="icon"
+          />
+        </div>
+
+        <ul class="nav">
+          <li><a href="../index.html" style="--i: 1">Home</a></li>
+          <li><a href="./characters.html" style="--i: 2">Characters</a></li>
+          <li><a href="./movie.html" style="--i: 3">Movie</a></li>
+        </ul>
+        <div class="close"></div>
+      </header>
+      <main>
+        <article data-index="0" data-status="active">
+          <div class="article-image-section article-section"></div>
+          <div class="article-description-section article-section">
+            <p>
+              Iron Man is a superhero appearing in American comic books
+              published by Marvel Comics. The character was co-created by writer
+              and editor Stan Lee, developed by scripter Larry Lieber, and
+              designed by artists Don Heck and Jack Kirby.
+            </p>
+          </div>
+          <div class="article-title-section article-section">
+            <h2>Iron man</h2>
+          </div>
+          <div class="article-nav-section article-section">
+            <button
+              class="article-nav-button"
+              type="button"
+              onclick="handleLeftClick()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </button>
+            <button
+              class="article-nav-button"
+              type="button"
+              onclick="handleRightClick()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </article>
+        <article data-index="1" data-status="inactive">
+          <div class="article-image-section article-section"></div>
+          <div class="article-description-section article-section">
+            <p>
+              Natasha Romanoff, a member of the Avengers and a former KGB spy,
+              is forced to confront her dark past when a conspiracy involving
+              her old handler arises.
+            </p>
+          </div>
+          <div class="article-title-section article-section">
+            <h2>Black Widow</h2>
+          </div>
+          <div class="article-nav-section article-section">
+            <button
+              class="article-nav-button"
+              type="button"
+              onclick="handleLeftClick()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </button>
+            <button
+              class="article-nav-button"
+              type="button"
+              onclick="handleRightClick()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </article>
+        <article data-index="2" data-status="inactive">
+          <div class="article-image-section article-section"></div>
+          <div class="article-description-section article-section">
+            <p>
+              Doctor Strange, American comic-book superhero created for Marvel
+              Comics by writer Stan Lee and artist Steve Ditko. The character
+              first appeared in a backup strip in Strange Tales no. 110 in July
+              1963 but soon blossomed into one of the cult characters of the
+              decade and a staple in the Marvel pantheon.
+            </p>
+          </div>
+          <div class="article-title-section article-section">
+            <h2>Dr Strange</h2>
+          </div>
+          <div class="article-nav-section article-section">
+            <button
+              class="article-nav-button"
+              type="button"
+              onclick="handleLeftClick()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </button>
+            <button
+              class="article-nav-button"
+              type="button"
+              onclick="handleRightClick()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </article>
+        <article data-index="3" data-status="inactive">
+          <div class="article-image-section article-section"></div>
+          <div class="article-description-section article-section">
+            <p>
+              Spider-Man is a superhero appearing in American comic books
+              published by Marvel Comics. Created by writer-editor Stan Lee and
+              artist Steve Ditko, he first appeared in the anthology comic book
+              Amazing Fantasy #15 in the Silver Age of Comic Books.
+            </p>
+          </div>
+          <div class="article-title-section article-section">
+            <h2>Spiderman</h2>
+          </div>
+          <div class="article-nav-section article-section">
+            <button
+              class="article-nav-button"
+              type="button"
+              onclick="handleLeftClick()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </button>
+            <button
+              class="article-nav-button"
+              type="button"
+              onclick="handleRightClick()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </article>
+        <article data-index="4" data-status="inactive">
+          <div class="article-image-section article-section"></div>
+          <div class="article-description-section article-section">
+            <p>
+              Hawkeye is a fictional character appearing in American comic books
+              published by Marvel Comics. Created by writer Stan Lee and artist
+              Don Heck, the character first appeared as a supervillain in Tales
+              of Suspense #57 and later joined the Avengers as a superhero in
+              The Avengers #16.
+            </p>
+          </div>
+          <div class="article-title-section article-section">
+            <h2>Hawkeye</h2>
+          </div>
+          <div class="article-nav-section article-section">
+            <button
+              class="article-nav-button"
+              type="button"
+              onclick="handleLeftClick()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </button>
+            <button
+              class="article-nav-button"
+              type="button"
+              onclick="handleRightClick()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </article>
+      </main>
+
+      <div class="footer">
+        <ul class="sci">
+          <li><a href="#" style="--i: 9">Facebook</a></li>
+          <li><a href="#" style="--i: 8">Twitter</a></li>
+          <li><a href="#" style="--i: 7">Instagram</a></li>
+        </ul>
+        <p class="copyrightText">
+          Copyright © <span id="date"> </span> All rights reserved | This
+          template is made with <span class="heart">♥</span> by
+          <a href="#">Nemanja Djordjevic</a>
+        </p>
+      </div>
+    </div>
+    <div class="loading-text">0%</div>
+    <script src="../js/character.js"></script>
+  </body>
+</html>
